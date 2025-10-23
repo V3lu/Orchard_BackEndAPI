@@ -1,0 +1,227 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj",
+        "projectName": "Orch_back_API",
+        "projectPath": "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj",
+        "packagesPath": "C:\\Users\\aethi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\aethi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Nethereum.ABI": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Accounts": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Autogen.ContractApi": {
+              "target": "Package",
+              "version": "[4.20.1, )"
+            },
+            "Nethereum.BlockchainProcessing": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Contracts": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.ENS": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Geth": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.HdWallet": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Hex": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.JsonRpc.Client": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.JsonRpc.RpcClient": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.JsonRpc.WebSocketClient": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.KeyStore": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Merkle.Patricia": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Model": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Parity": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Quorum": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.RLP": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.RPC": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.RPC.Reactive": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Signer": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Signer.EIP712": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.StandardTokenEIP20": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Util": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.21.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -73,12 +73,6 @@ namespace Orch_back_API
 
             var app = builder.Build();
 
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseCors("CORSPolicy");

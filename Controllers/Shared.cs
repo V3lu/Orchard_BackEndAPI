@@ -15,6 +15,7 @@ namespace Orch_back_API.Controllers
         public static string ImgagesFolderPath = "C:\\Studia\\OrchardUserImages";
         private readonly MyJDBContext _context;
         private readonly IConfiguration _configuration;
+        private static string _secret = Environment.GetEnvironmentVariable("SECRET");
         public Shared(MyJDBContext _context, IConfiguration _configuration)
         {
             this._configuration = _configuration;
@@ -22,7 +23,7 @@ namespace Orch_back_API.Controllers
         }
         public string GenerateToken(Users user)
         {
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Secret"]));
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_secret));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
