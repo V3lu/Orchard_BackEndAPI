@@ -63,6 +63,7 @@ namespace Orch_back_API.Controllers
             return Ok();
         }
 
+        [NonAction]
         public string checkIfAdd0(int input)
         {
             if(input < 10)

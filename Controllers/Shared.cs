@@ -12,10 +12,10 @@ namespace Orch_back_API.Controllers
 {
     public class Shared
     {
-        public static string ImgagesFolderPath = "C:\\Studia\\OrchardUserImages";
+        public static string ImgagesFolderPath = "/home/seyi";
         private readonly MyJDBContext _context;
         private readonly IConfiguration _configuration;
-        private static string _secret = Environment.GetEnvironmentVariable("SECRET");
+        private static string _secret = "c1d2f3g4h5j6k7m8n9p0q1r2s3t4u5v6";
         public Shared(MyJDBContext _context, IConfiguration _configuration)
         {
             this._configuration = _configuration;
