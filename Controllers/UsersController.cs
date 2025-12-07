@@ -12,6 +12,11 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Nodes;
+using Orch_back_API.Entities;
+using Microsoft.AspNetCore.Hosting;
+
+using Orch_back_API.Entities;
+using System.IO;
 
 namespace Orch_back_API.Controllers
 {
@@ -27,9 +32,13 @@ namespace Orch_back_API.Controllers
     public class UsersController : ControllerBase
     {
         private readonly MyJDBContext _context;
-        public UsersController(MyJDBContext context)
+        private readonly IWebHostEnvironment _environment;
+        private readonly ILogger<UsersController> _logger;
+        public UsersController(MyJDBContext context, IWebHostEnvironment environment, ILogger<UsersController> _logger)
         {
             this._context = context;
+            _environment = environment;
+            this._logger = _logger;
         }
 
         [HttpPost]
@@ -149,8 +158,9 @@ namespace Orch_back_API.Controllers
         public async Task<IActionResult> GetUsersSearchedForWithFilters([FromForm] UsersComing user)  
         {
             var userCame = user;
+            _logger.LogInformation("Checking for genders: {user}", userCame.City); 
 
-            if (!IsRegion(userCame) && !IsAge(userCame) && !IsCity(userCame))
+            if (!IsRegion(userCame) && !IsAge(userCame) && !IsCity(userCame) && !IsGender(userCame))
             {
                 return NotFound();
             }
@@ -170,10 +180,20 @@ namespace Orch_back_API.Controllers
             if (IsCity(userCame))
             {
                 query = query.Where(eb => eb.City == userCame.City);
+           
             }
-
+            if (IsGender(userCame))
+              {
+                 _logger.LogInformation("Registration 2 attempt for user: {user}", userCame.Gender); 
+                  query = query.Where(eb => eb.Gender == userCame.Gender);
+              }
+          
+             var sqlQuery = query.ToQueryString();
+                 Console.WriteLine("Generated SQL:"+sqlQuery);
             var users = await query.ToListAsync();
+                 Console.WriteLine($"Users count: {users.Count}");
             var userToRemove = await _context.Users.Where(eb => eb.Id == userCame.Id).FirstOrDefaultAsync();
+            users.Remove(userToRemove!);
             users.Remove(userToRemove!);
             return Ok(new {users});
         }
@@ -225,6 +245,7 @@ namespace Orch_back_API.Controllers
         }
         private bool IsAge(UsersComing user)
         {
+            
             if (user.Age == null)
             {
                 return false;
@@ -245,6 +266,95 @@ namespace Orch_back_API.Controllers
                 return true;
             }
         }
+
+      //    private bool IsGender(UsersComing userCame)
+      //      {
+      //        return userCame.Gender.HasValue;
+      //      }
+        private bool IsGender(UsersComing user)
+        {
+           _logger.LogInformation("Registration for user: {user}", user.Gender); 
+            if (user.Gender == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
+         
+        
+
+    
+
+
+/// <summary>
+/// Returns the profile photo for the given user as an image.
+/// </summary>
+/// <param name="id">User Id.</param>
+[HttpGet("{id:guid}/photo")]
+[AllowAnonymous] // or remove this if you require auth
+public async Task<IActionResult> GetUserPhoto(Guid id)
+{
+    var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == id);
+    if (user == null)
+    {
+        return NotFound("User not found.");
     }
+
+    if (string.IsNullOrWhiteSpace(user.ProfilePhotoPath))
+    {
+        return NotFound("User has no profile photo.");
+    }
+
+    var filePath = user.ProfilePhotoPath;
+
+    if (!System.IO.File.Exists(filePath))
+    {
+        return NotFound("Profile photo file not found on server.");
+    }
+
+    var extension = Path.GetExtension(filePath).ToLowerInvariant();
+    var contentType = extension switch
+    {
+        ".jpg" or ".jpeg" => "image/jpeg",
+        ".png" => "image/png",
+        ".gif" => "image/gif",
+        _ => "application/octet-stream"
+    };
+
+    // Serves the physical file directly
+    return PhysicalFile(filePath, contentType);
 }
 
+      [HttpGet("nearby-users")]
+        public async Task<IActionResult> GetNearbyUsers([FromBody] UsersComing currentUser)
+        {
+            var query = _context.Users.AsQueryable();
+            
+            if (!string.IsNullOrEmpty(currentUser.City))
+            {
+                query = query.Where(u => u.City == currentUser.City);
+            }
+
+            if (!string.IsNullOrEmpty(currentUser.Region))
+            {
+                query = query.Where(u => u.Region == currentUser.Region);
+            }
+
+            var users = await query
+                .OrderBy(u => u.Username)   // or random / by Age, etc.
+                .Take(5)
+                .ToListAsync();
+
+            return Ok(users);
+        }
+
+
+    
+}
+
+
+}
