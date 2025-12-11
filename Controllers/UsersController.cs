@@ -128,6 +128,30 @@ namespace Orch_back_API.Controllers
         }
 
         [HttpPost]
+        [Route("nearby-users")]
+        public async Task<IActionResult> GetNearbyUsers([FromBody] UsersComing currentUser)
+        {
+            var query = _context.Users.AsQueryable();
+
+            if (!string.IsNullOrEmpty(currentUser.City))
+            {
+                query = query.Where(u => u.City == currentUser.City);
+            }
+
+            if (!string.IsNullOrEmpty(currentUser.Region))
+            {
+                query = query.Where(u => u.Region == currentUser.Region);
+            }
+
+            var users = await query
+                .OrderBy(u => u.Username) 
+                .Take(5)
+                .ToListAsync();
+
+            return Ok(users);
+        }
+
+        [HttpPost]
         [Route("addnotificationwhenprofilevisited")]
         public async Task<IActionResult> AddNotificationWhenProfileVisited([FromBody] NotificationObjectFromApi fromApi)
         {

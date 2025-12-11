@@ -14,6 +14,7 @@ namespace Orch_back_API.Entities
         public string? Role { get; set; }
         public string? Email { get; set; }
         public string? Region { get; set; }
+        public string? Gender { get; set; }
         public int? Age { get; set; }
         public string? City { get; set; }
         public string? ProfilePhotoPath { get; set; }

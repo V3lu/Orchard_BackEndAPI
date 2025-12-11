@@ -113,3 +113,4 @@ C:\Users\aethi\Source\Repos\OrchBackAPI\obj\Debug\net8.0\refint\Orch_back_API.dl
 C:\Users\aethi\Source\Repos\OrchBackAPI\obj\Debug\net8.0\Orch_back_API.pdb
 C:\Users\aethi\Source\Repos\OrchBackAPI\obj\Debug\net8.0\Orch_back_API.genruntimeconfig.cache
 C:\Users\aethi\Source\Repos\OrchBackAPI\obj\Debug\net8.0\ref\Orch_back_API.dll
+C:\Users\aethi\source\repos\OrchBackAPI\obj\Debug\net8.0\swae.build.ex.cache

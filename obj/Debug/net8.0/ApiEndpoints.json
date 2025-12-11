@@ -183,6 +183,11 @@
         "IsRequired": false
       },
       {
+        "Name": "Author.Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "Author.Age",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
@@ -494,6 +499,22 @@
         "Name": "Notifications",
         "Type": "System.Collections.Generic.List\u00601[[Orch_back_API.Entities.Notifications, Orch_back_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Orch_back_API.Controllers.UsersController",
+    "Method": "GetNearbyUsers",
+    "RelativePath": "api/Users/nearby-users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currentUser",
+        "Type": "Orch_back_API.Entities.UsersComing",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\entities\\userscoming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:entities\\userscoming.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\shared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\shared.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\systemcleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\systemcleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\entities\\myjdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:entities\\myjdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,18 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:entities\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\controllers\\systemcleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|solutionrelative:controllers\\systemcleaningcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC949297-305E-4114-B1CE-F1976412A422}|Orch_back_API.csproj|c:\\users\\aethi\\source\\repos\\orchbackapi\\entities\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 24,
           "Children": [
             {
               "$type": "Bookmark",
@@ -145,37 +161,82 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersComing.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Entities\\UsersComing.cs",
+              "RelativeDocumentMoniker": "Entities\\UsersComing.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Entities\\UsersComing.cs",
+              "RelativeToolTip": "Entities\\UsersComing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:56:08.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "MyJDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Entities\\MyJDBContext.cs",
+              "RelativeDocumentMoniker": "Entities\\MyJDBContext.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Entities\\MyJDBContext.cs",
+              "RelativeToolTip": "Entities\\MyJDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:52:28.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-07T18:57:42.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-07T18:57:40.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Shared.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\Shared.cs",
               "RelativeDocumentMoniker": "Controllers\\Shared.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\Shared.cs",
               "RelativeToolTip": "Controllers\\Shared.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:40:53.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T18:40:53.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAAEEBAAAAAAAAAAASwFkBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAxwIUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:38:46.164Z"
+              "WhenOpened": "2025-12-07T18:38:46.164Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
@@ -193,13 +254,13 @@
               "RelativeDocumentMoniker": "Controllers\\MessagesController.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\MessagesController.cs",
               "RelativeToolTip": "Controllers\\MessagesController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T18:38:30.416Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "PaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\PaymentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
@@ -211,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
@@ -223,16 +284,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA3wCIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:36:16.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T18:36:16.124Z"
             },
             {
               "$type": "Document",
@@ -248,19 +308,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Entities\\Users.cs",
               "RelativeDocumentMoniker": "Entities\\Users.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Entities\\Users.cs",
               "RelativeToolTip": "Entities\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T18:35:55.375Z"
+              "WhenOpened": "2025-12-07T18:35:55.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "NotificationsController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\NotificationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
@@ -272,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "SystemCleaningController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Controllers\\SystemCleaningController.cs",
               "RelativeDocumentMoniker": "Controllers\\SystemCleaningController.cs",
@@ -284,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Messages.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Entities\\Messages.cs",
               "RelativeDocumentMoniker": "Entities\\Messages.cs",
@@ -296,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "20231216192147_init.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Migrations\\20231216192147_init.cs",
               "RelativeDocumentMoniker": "Migrations\\20231216192147_init.cs",
@@ -308,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj": {}
+    "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Orch_back_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj": {
+    "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Orch_back_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj",
+        "projectUniqueName": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Orch_back_API.csproj",
         "projectName": "Orch_back_API",
-        "projectPath": "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\Orch_back_API.csproj",
+        "projectPath": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\Orch_back_API.csproj",
         "packagesPath": "C:\\Users\\aethi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aethi\\Source\\Repos\\OrchBackAPI\\obj\\",
+        "outputPath": "C:\\Users\\aethi\\source\\repos\\OrchBackAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -219,7 +219,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
